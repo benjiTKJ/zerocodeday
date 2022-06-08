@@ -1,5 +1,5 @@
 {
-  "name": "music-master",
+  "name": "zero-code-day",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,10 +14,18 @@
   "dependencies": {
     "@babel/core": "^7.2.2",
     "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
     "core-js": "^2.6.12",
     "live-server": "^1.2.1",
     "parcel-bundler": "^1.12.3",
     "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "react-dom": "^16.6.3",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^6.2.1"
   }
 }

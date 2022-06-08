@@ -20,3 +20,58 @@ h1,h2,h3,h4,h5{
     font-family: 'EconomicaBold';
 }
 
+nav{
+    margin: 50px 0;
+	background-color: green;
+}
+
+nav ul {
+	padding: 0;
+    margin: 10;
+	list-style: none;
+	position: relative;
+	}
+	
+nav ul li {
+	display:flex;
+	background-color: #E64A19;
+    justify-content: right;
+    
+	}
+
+nav a {
+	display:block;
+	padding:0 10px;	
+	color:#FFF;
+	font-size:20px;
+	line-height: 60px;
+	text-decoration:none;
+}
+
+nav a:hover { 
+	background-color: #000000; 
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px; /* the height of the main nav */
+}
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+}
+	
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	width:100px;
+	float:left;
+	display:list-item;
+	position: relative;
+    inline-size: min-content;
+}
+
+
+
